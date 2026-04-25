@@ -1,6 +1,6 @@
 # 📚 PaperMind
 
-> **An agentic AI assistant for researchers — answers questions about academic papers, research methodology, citations, peer review, and publication venues. Grounded. Honest. Never hallucinates.**
+> **An agentic AI assistant for researchers that answers questions about academic papers, research methodology, citations, peer review, and publication venues. Grounded. Honest. Never hallucinates.**
 
 [![Python](https://img.shields.io/badge/Python-3.10+-blue?style=flat-square&logo=python)](https://python.org)
 [![LangGraph](https://img.shields.io/badge/LangGraph-Agentic-orange?style=flat-square)](https://github.com/langchain-ai/langgraph)
