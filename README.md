@@ -12,7 +12,7 @@
 
 ## What is PaperMind?
 
-PhD students and academic researchers spend hours searching for reliable answers to recurring questions — how to read and evaluate a paper, what evaluation metrics mean, how citations work, which venues to target, how peer review operates. A simple web search returns contradictory or shallow results.
+PhD students and academic researchers spend hours searching for reliable answers to recurring questions, i.e., how to read and evaluate a paper, what evaluation metrics mean, how citations work, which venues to target, how peer review operates. A simple web search returns contradictory or shallow results.
 
 **PaperMind** is a stateful, self-reflecting agentic AI assistant that answers these questions faithfully from a curated research knowledge base. It remembers the conversation, knows when it doesn't know something, and never makes up information.
 
@@ -30,13 +30,13 @@ Built with **LangGraph**, **ChromaDB**, **Groq (llama-3.3-70b)**, and **Streamli
 
 ## Features
 
-- 🧠 **8-node LangGraph StateGraph** — memory → router → retrieve/tool/skip → answer → eval → save
-- 📖 **12-document curated knowledge base** — one topic per document, embedded with SentenceTransformers
-- 🔁 **Self-reflection eval loop** — every answer is scored for faithfulness (0.0–1.0) before reaching the user; retried automatically if below 0.70
-- 💬 **Stateful multi-turn memory** — MemorySaver + thread_id persists user name and context across the full conversation
-- 🛠️ **Tool use** — datetime and arithmetic calculator for non-KB queries
-- 🚫 **Honest failure mode** — clearly admits when a question is out of scope instead of hallucinating
-- ⚡ **Smart routing** — LLM-powered router distinguishes between retrieve / tool / memory-only queries
+- 🧠 **8-node LangGraph StateGraph** : memory → router → retrieve/tool/skip → answer → eval → save
+- 📖 **12-document curated knowledge base** : one topic per document, embedded with SentenceTransformers
+- 🔁 **Self-reflection eval loop** : every answer is scored for faithfulness (0.0–1.0) before reaching the user; retried automatically if below 0.70
+- 💬 **Stateful multi-turn memory** : MemorySaver + thread_id persists user name and context across the full conversation
+- 🛠️ **Tool use** : datetime and arithmetic calculator for non-KB queries
+- 🚫 **Honest failure mode** : clearly admits when a question is out of scope instead of hallucinating
+- ⚡ **Smart routing** : LLM-powered router distinguishes between retrieve / tool / memory-only queries
 
 ---
 
